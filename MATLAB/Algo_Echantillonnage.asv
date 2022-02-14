@@ -1,0 +1,6 @@
+function [Fx] = Algo_Echantionnage(dt,t,F)
+N=max(size(F)); 
+Nu=(0:N-1)/(N*dt);
+for i = 1.0:Nu:N
+    Fx=mean(F(:,i))
+end
