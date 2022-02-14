@@ -1,0 +1,6 @@
+-1 : Open STM32CubeIDE (Download link : https://www.st.com/en/development-tools/stm32cubeide.html)
+-2 : File => Switch Workspace => ImuCalibrationF412ZG folder => Launch
+-3 : Import SW4STM32 or TrueSTUDIO project => Robot folder => Finish
+-4 : Fix the IMU on a flat surface in order to calibrate when the program will start
+-5 : Connect the Stm32 to the computer and run the program
+-6 : Open IMU_plot MATLAB Code, launch it, you can the IMU plotted
